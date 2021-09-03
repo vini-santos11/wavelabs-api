@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5434,
+    "username": "postgres",
+    "password": "wavelabs",
+    "database": "wavelabs",
+    "migratrions": ["./src/database/migrations/*ts"],
+    "cli": {
+      "migratrionsDir": ".src/database/migrations"
+    }
+}
